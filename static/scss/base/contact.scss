@@ -33,6 +33,27 @@ body, html {
 
 }
 
+#Icon_feather-mail {
+
+    path {
+
+        stroke: $text-color;
+
+    }
+
+}
+
+#questionTheme {
+
+    background: #fff;
+
+    option {
+
+        padding-left: 0;
+
+    }
+
+}
 
 #homeBtn {width: 100px}
 #logoutBtn {width: 120px}
@@ -124,6 +145,8 @@ body, html {
 
                 position: absolute;
                 left: 20px;
+
+                fill: $text-color;
     
             }
     

@@ -2470,6 +2470,62 @@ svg {
 
 }
 
+@media only screen and (max-width: 1150px) {
+
+    .new-note {
+
+        .wrapper {
+
+            width: 600px;
+
+            .new-note-title {
+
+                width: 548px;
+
+            }
+
+            #newNoteContentCE {
+
+                width: 540px;
+
+            }
+
+        }
+
+    }
+
+    .new-note.open {
+
+        .wrapper {
+
+            .new-note-title {
+
+                width: 365px;
+
+            }
+
+        }
+
+    }
+    
+}
+
+@media only screen and (max-width: 870px) {
+
+    .new-note {
+
+        left: 30px;
+
+    }
+
+    .notes {
+
+        left: 30px;
+
+    }
+
+}
+
 /* Device width optimization */
 
 @media only screen and (max-width: 775px) {

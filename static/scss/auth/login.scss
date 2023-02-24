@@ -1,4 +1,4 @@
-$text-color: #1E2330;
+$light-text: #1E2330;
 
 body, html {
 
@@ -6,7 +6,7 @@ body, html {
     width: 100%;
     height: 100%;
 
-    color: $text-color;
+    color: $light-text;
 
 }
 
@@ -16,9 +16,39 @@ body {
 
 }
 
+::-webkit-scrollbar {
+    
+    width: 10px;
+
+}
+
+
+::-webkit-scrollbar-track{
+
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: $light-text;
+    border-radius: 50px;
+
+}
+
 svg {
 
-    fill: $text-color;
+    fill: $light-text;
+
+}
+
+#Icon_feather-mail {
+
+    path {
+
+        stroke: $light-text;
+
+    }
 
 }
 
@@ -234,7 +264,7 @@ button:disabled {
                 left: 10%;
 
                 text-decoration: none;
-                color: $text-color;
+                color: $light-text;
 
             }
 

@@ -20,11 +20,11 @@ def c(request):
     
     if request.user.is_authenticated:
         
-        return render(request, 'contact.html', {'n': request.user.profile.name})
+        return render(request, 'contact.html', {'n': request.user.profile.name, 'u': request.user})
     
     else:
         
-        return render(request, 'contact.html')
+        return render(request, 'contact.html', {'u': request.user})
     
 # contact submit
 def cs(request):
